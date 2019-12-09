@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                <a href="./index.html" title="Simplicity Logo">
+                    <img src="images/Simplicity-logo.png" alt="Simplicity Logo" width="44" height="61">
+                    <h1>Simplicity</h1>
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html" title="">Home</a>  
+                        </li><li><a href="#" title="">About</a>  
+                        </li><li><a href="#" title="">Providers</a>  
+                        </li><li><a href="#" title="">Clients</a>  
+                        </li><li><a class="active" href="./contact.html" title="contact">Contact</a>  
+                        </li><li><a href="#" title="">Sign In</a></li>
+                    </ul>
+                </nav>
+                <button type="button" class="blue-button">Join</button>
+            </div>
+        </header>
+        <main class="wrapper">
+            <div class="inside-wrapper">
+                <h3>Contact Us</h3>
+                <img src="./images/contact-us-cover.jpg" alt="">
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <div class="left-fields flex-col">
+                            <label for="name">Name:</label>
+                            <input type="text" name="Name" id="name">
+                            <label for="email">Email:</label>
+                            <input type="email" list="emails" id="email">
+                            <label for="phone">Phone:</label>
+                            <input type="text" name="phone" id="phone">
+                            <datalist id="emails">
+                            <option value="s.e.atanasowa@gmail.com">
+                            <option value="hackohackob@gmail.com">
+                            <option value="ss.strahil.stefkov@gmail.com">
+                            <option value="vicky.atanasova@gmail.com">
+                            <option value="empi464.abv.bg">
+                            </datalist>
+                            <label for="textbox">Any additional notes? Please, add them below:</label>
+                            <textarea name="textbox" id="textbox" rows="5"></textarea>
+                        </div>
+                        <div class="right-fields flex-col">
+                            <div class="contact-ways">
+                                <p>Preferred way to contact you:</p>
+                                <input type="radio" id="e-mail" name="preferred-way" value="email" checked>
+                                <label for="e-mail">E-mail</label><br>
+                                <input type="radio" id="phone-num" name="preferred-way" value="phone">
+                                <label for="phone-num">Phone</label>
+                            </div>
+                            <div class="contact-reasons">
+                                <p>Reasons to contact us:</p>
+                                <input type="radio" id="mlia" name="reasons" value="mlia" checked>
+                                <label for="mlia">Mlia Mlia</label><br>
+                                <input type="radio" id="beche" name="reasons" value="beche">
+                                <label for="beche">Beche Beche</label><br>
+                                <input type="radio" id="diktuar" name="reasons" value="diktuar">
+                                <label for="diktuar">Diktuar</label><br>
+                                <input type="radio" id="hacilove" name="reasons" value="hacilove">
+                                <label for="hacilove">Lov Haci</label>
+                            </div>
+                            <div class="captcha">
+                                <input id="checkbox" type="checkbox">
+                                <label  for="checkbox">I`m not a robot<span></span></label>
+                                <img src="./images/captcha.png" alt="captcha" width="40" height="40">
+                                <p>reCAPTCHA</p>
+                            </div>
+                        </div>
+                        <button type="submit">Get in touch</button>
+                    </form>
+                    <div class="map-holder">
+                        <img class="map" src="./images/Maps.png" alt="map" width="180" height="180">
+                        <p>You are also welcome to meet us in our office, which is located at:</p>
+                        <p>Makedonia 41B</p>
+                    </div>
+                </div>
+                <div class="contact-us benefits">
+                    <div class="single-benefit">
+                        <div class="bnf-body">
+                            <div class="circle blue">
+                                <div class="inside-circle"></div>
+                                <img src="./images/phone.png" alt="phone" width="60" height="60">
+                            </div>
+                            <div class="bnf-content">
+                                <h4>052 123 456</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-benefit">
+                        <div class="bnf-body">
+                            <div class="circle blue">
+                                <div class="inside-circle"></div>
+                                <img src="./images/email.png" alt="e-mail" width="60" height="60">
+                            </div>
+                            <div class="bnf-content">
+                                <h4>simplicity@gmail.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-benefit">
+                        <div class="bnf-body">
+                            <div class="circle blue">
+                                <div class="inside-circle"></div>
+                                <img src="./images/location.png" alt="facebook" width="60" height="60">
+                            </div>
+                            <div class="bnf-content">
+                                <h4>Makedonia 41B</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+        <footer>
+            <span>All Rights Reserved PSD Style 2012</span>
+            <span>Design by Some Company Name</span>
+        </footer>
+    </body>
+</html>
